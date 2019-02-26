@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "typeRoots": [
+      "./node_modules/@types/"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"],
+      "components/*": ["src/components/*"],
+      "containers/*": ["src/containers/*"],
+      "interfaces/*": ["src/common/interfaces/*"],
+      "common/*": ["src/common/*"],
+    }
+  }
+}

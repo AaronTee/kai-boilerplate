@@ -1,0 +1,54 @@
+{
+  "name": "kai-boilerplate",
+  "version": "1.0.0",
+  "description": "My own boilerplate.",
+  "main": "src/index.js",
+  "scripts": {
+    "eslint": "eslint src",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/react": "^16.7.6",
+    "@types/react-redux": "^7.0.1",
+    "@types/redux-thunk": "^2.1.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-import": "^1.11.0",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.14.1",
+    "eslint-cli": "^1.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "typescript": "^3.1.6",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "antd": "^3.13.6",
+    "connected-react-router": "^5.0.1",
+    "history": "^4.7.2",
+    "normalize.css": "^8.0.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "typesafe-actions": "^2.0.4"
+  }
+}
